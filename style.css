@@ -1,0 +1,314 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.border {
+    border: 2px solid red;
+
+}
+
+.pipe {
+    color: rgb(238, 237, 237);
+    margin: 0 10%;
+}
+
+.navbar {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logoAndOptions {
+    height: 95%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.accountAndLogin {
+    height: 80%;
+    width: 20%;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.5rem;
+    color: rgb(81, 80, 80);
+
+}
+
+.busTicketContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;
+    padding: 6px;
+    /* background-color: black;*/
+}
+
+.busTicketContainer:hover {
+    background-color: rgb(241, 240, 240);
+    border-radius: 1vh;
+
+}
+
+.activeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* font-size: 2px; */
+    font-size: 0.5rem;
+    padding: 6px;
+    border-radius: 1vh;
+    padding: 5px;
+    color: white;
+    background-color: #d84e55;
+}
+
+.logo-blue:hover {
+    color: blue;
+}
+
+.helpContainer,
+.accountContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+/* main-region  */
+
+.main-region {
+    width: 100%;
+    height: 60vh;
+    background-image: url("./assets/HeroImageV2_C.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-option-main {
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-text {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.main-option {
+    height: 35%;
+    width: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.main-option-boxes {
+    height: 100%;
+    width: 25%;
+    color: rgb(62, 61, 61);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    padding-left: 3%;
+}
+
+.first {
+    border-bottom-left-radius: 3vh;
+    border-top-left-radius: 3vh;
+}
+
+.fourth {
+    border-bottom-right-radius: 3vh;
+    border-top-right-radius: 3vh;
+    background-color: #d84e55;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.second {
+    border-left: 0.8px solid #d5d2d2;
+    border-right: 0.8px solid #d5d2d2
+}
+
+.arrow-sign {
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 50%;
+    padding: 1px;
+    color: grey;
+    position: absolute;
+    top: 35%;
+    left: 23.5%;
+    background-color: white;
+}
+.trending-offers{
+
+    height: 30vh;
+    background-color: white;
+    width: 55%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    position: relative;
+   left: 22.5%;
+   bottom: 6vh;
+   border-radius: 3vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+
+.textAndShowAllOption{
+   width: 90%;
+   height: 20%;
+
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: rgb(80, 79, 79);
+}
+
+.viewAll{
+    background-color: white;
+    color: blue;
+    border-radius: 3vh;
+    border: 0.5px solid grey;
+    width: 15%;
+    height: 80%;
+}
+
+.trendingPics{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offerImage{
+    width: 33%;
+}
+
+.refreel{
+    height: 10vh;
+    width: 58%;
+    background-image: url('https://github.com/saurabhbansal2443/Batch-6-/blob/main/RedBusProject/Assets/webreferal.png?raw=true');
+    background-size: cover;
+    margin-left: 21%;
+}
+
+.bus-rentalSection{
+    height: 88vh;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+     border: 2px solid black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.busRentalText{
+  height: 95%;
+  width: 29%;
+   border: 2px solid black; 
+   background-image: url(./assets/cab\ bus\ rental.png);
+   display: flex;
+     
+   
+    
+    justify-content: end; 
+   background-repeat: no-repeat;
+  
+}
+.busRentalPic{ 
+    height: 95%;
+    width: 29%;
+    border: 2px solid black;
+    background-image:url(./assets/rentalpic.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.enjoy{
+    height: 50vh;
+    width: 70%;
+    /* border: 2px solid black; */
+    background-image: url("./assets/enjoy.png");
+    background-size: cover;
+    margin: 4% 15%;
+}
+.primo{
+    /* border: 2px solid black; */
+    height: 80vh;
+    width: 80%;
+     /* margin: 6% 15% ;  */
+    background-image: url("./assets/primo.png");
+    background-size: cover;
+    margin-left: 9.5%;
+
+
+}
+.partner{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 80%;
+    background-image: url("./assets/partner.png");
+    background-size: cover;
+    margin-left: 10.2%;
+}
+.private{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 92%;
+    background-image: url("./assets/private.png");
+    background-size: cover ;
+    margin-left:6.5% ;
+    
+}
+.global{
+    /* border: 2px solid black; */
+    height: 42vh;
+    width: 92% ;
+    margin-left:6.5% ;
+    background-image: url("./assets/global.png");
+    background-size: cover;
+}
+.bookbus{
+    /* border: 2px solid black; */
+    height:70vh ;
+    width: 97%;
+    background-image: url("./assets/bookbus.png");
+    background-size: cover;
+    margin-left: 4% ;
+}
+.unlock{
+    
+}
